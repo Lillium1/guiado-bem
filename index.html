@@ -6,9 +6,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
 	<!-- Link archivo css-->
-	
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item"><a href="#" class="a-menu__item__link">BLOG</a></li>
+			<li class="a-menu__item"><a href="#" class="a-menu__item__link">ABOUT</a></li>
+			<li class="a-menu__item"><a href="#" class="a-menu__item__link">CONTACTO</a></li>
+		</ul>
+	</header>
+	<section>
+		<div class="article">
+			<h2 class="article__title">Mermeladas</h2>
+			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ex accusamus officiis reprehenderit cum voluptates alias fugit ab cumque tenetur, perspiciatis accusantium dignissimos voluptatem consequuntur commodi pariatur a quibusdam sequi?</p>
+			<img src="img/mermeladas pirque.jpg" alt="" class="article__img">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Comida Saludable</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci unde dolorem cum, consectetur quisquam? Veniam deleniti modi voluptatibus, dolore iste asperiores, facilis blanditiis, distinctio quibusdam dolores nesciunt iusto necessitatibus earum?</p>
+			<img src="img/comida-vegana-230x130.jpg" alt="" class="article__img">
+		</div>
+		<div class="article article--green">
+			<h2 class="article__title">Los beneficios de la Miel</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, fugit. Tenetur molestias numquam voluptates commodi praesentium ab architecto aut voluptas sequi nihil, eos explicabo optio maxime ratione veniam quae sint.</p>
+			<img src="img/MIEL-DE-ABEJA-230x130.png" alt="" class="article__img">
+		</div>
+	</section>
+	<footer class="pie">
+		<p class="pie__item--center">
+			Create by Someone
+		</p>
+	</footer>
 </body>
 </html>
